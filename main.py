@@ -153,7 +153,7 @@ def evaluate_numerical_transformations(col_data):
     # Refine the skewness and kurtosis thresholds, maybe dynamic ?
     # Incorporate normality tests (Anderson-Darling)
     # Add  (heteroscedasticity) Variance Stabilization - log transformation or the Anscombe transform
-    # add more scaling options and transformations
+    # add more scaling options and transformations like log, cube root, square root
     # add a way to handle composite or assure normality (recusrive call the function until normality or the the test of desired distribution)
     if original_skew > 0.5 or normality == "fails": 
         pt = PowerTransformer(method='yeo-johnson')
