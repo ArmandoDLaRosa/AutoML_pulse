@@ -718,3 +718,8 @@ def preprocess_and_transform_data(df, target_variable):
 # for text data that has more than 1 word cluster it based on the word or words most repited... or title groupings
   # Mr Armando, Sr Armando....  Mr and SR are repeated words.... this can be a ood mining for encoding or rfeature for text columns
 # for ordered numeric data test various ranges clustering... and keep the most wondering... 
+
+
+Primer modelo: realizar tu análisis con todos los datos.
+• Segundo modelo: Primero borrar los outliers, luego transformarlos y luego generar tu modelo.
+• Tercer modelo: Primero transformarlos con todo y outliers, luego borrar los que queden y luego generar tu modelo.
